@@ -24,7 +24,7 @@ const getStyles = (variant: "primary" | "secondary" | "tertiary") =>
         //operador ternario
         backgroundColor: variant === "primary" ? 'navy' : 
                             variant === "secondary" ? 'gray' : 
-                            "#fff ",
+                            "#fff",
         padding:12,
         width: 150,
         borderWidth: variant === "tertiary" ? 1:0
